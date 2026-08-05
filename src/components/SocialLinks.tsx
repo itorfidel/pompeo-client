@@ -7,7 +7,7 @@ const SocialLinks = () => {
       <li className={`${styles.link} ${styles.orange}`}>
         <Link to="/">
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Ffacebook.svg?alt=media&token=0298eae5-94ec-47e1-8d78-b6aec51db921"
+            src="https://res.cloudinary.com/dplbkid9/image/upload/v1785853569/81341_u9oyua.png"
             alt="facebook"
           />
         </Link>
@@ -15,7 +15,7 @@ const SocialLinks = () => {
       <li className={`${styles.link} ${styles.red}`}>
         <Link to="/">
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Ftwitter.svg?alt=media&token=71f19276-06be-4ad7-8af9-03499f492337"
+            src="https://res.cloudinary.com/dplbkid9/image/upload/v1785853610/733635_son13k.png"
             alt="twitter"
           />
         </Link>
@@ -23,7 +23,7 @@ const SocialLinks = () => {
       <li className={`${styles.link} ${styles.maroon}`}>
         <Link to="/">
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Fgoogle-plus.svg?alt=media&token=b429d50e-e971-4715-a0de-f981712888d2"
+            src="https://res.cloudinary.com/dplbkid9/image/upload/v1785853827/733613_srmker.png"
             alt="googlePlus"
           />
         </Link>

@@ -14,7 +14,7 @@ const ContactUs = () => {
   return (
     <main className={styles.contactUs}>
       <Hero
-        image="https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Fcontact-us-hero-image.jpg?alt=media&token=e8157e5c-c5a3-477a-a5df-c144ab8a718c"
+        image="https://res.cloudinary.com/dplbkid9/image/upload/v1785702476/5e601dd36a9df809bb202e77_Untitled-1_20_7_bkquug.jpg"
         title="Contact Us"
       >
         <p>

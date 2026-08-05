@@ -21,7 +21,7 @@ const Footer = () => {
         >
           <div className={styles.contact}>
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Femail.png?alt=media&token=44bd1836-3d1c-4335-b30a-20081fef6f60"
+              src="https://res.cloudinary.com/dplbkid9/image/upload/v1785702241/5bc61f43b6ba2a3332ee30f4_icons8-secured-letter-80_20_1_eeeo8l.png"
               alt=""
             />
             <h3>EMAIL</h3>
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
           <div className={styles.contact}>
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Flocation.png?alt=media&token=b0648b69-6847-4162-8c4d-edc0364d8dde"
+              src="https://res.cloudinary.com/dplbkid9/image/upload/v1785702292/5bc61fa61d93fd9e7976d4af_icons8-marker-80_20_1_ydndz0.png"
               alt=""
             />
             <h3>FIND</h3>
@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
           <div className={styles.contact}>
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Fphone.png?alt=media&token=c0f4d8b8-17dd-4226-95ba-e31c12af65c1"
+              src="https://res.cloudinary.com/dplbkid9/image/upload/v1785702316/5bc61f741d93fdca4176d416_icons8-ringer-volume-80_b8gma5.png"
               alt=""
             />
             <h3>CALL</h3>

@@ -48,7 +48,7 @@ const Home = () => {
         className={styles.featured}
       >
         <Showcase
-          image="https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Ffeatured-image-1.png?alt=media&token=240780b7-dfa4-4107-a6de-01cf910c4d2a"
+          image="https://res.cloudinary.com/dplbkid9/image/upload/v1785701242/5bb9668024337c19082edcaf_orientovase_wzupn7.png"
           title="Gold & Black Pottery"
           to="/"
           linkText="View Details"
@@ -59,7 +59,7 @@ const Home = () => {
           commodo consequatuisaute.
         </Showcase>
         <Showcase
-          image="https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Ffeatured-image-2.png?alt=media&token=8bc259f2-c626-4611-a5c3-694280930415"
+          image="https://res.cloudinary.com/dplbkid9/image/upload/v1785701255/5bb381e8f20c2e1db6f8800c_blouse_o9vp5e.png"
           title="Orange Ceramic"
           to="/"
           linkText="View Details"

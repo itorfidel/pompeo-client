@@ -1,4 +1,6 @@
+import { Visibility } from "@mui/icons-material";
 import styles from "../../styles/routes/global/Input.module.scss";
+import { useRef, useState } from "react";
 
 interface Props {
   type: string;
@@ -35,6 +37,13 @@ const Input = ({
   onChange,
   onBlurCapture,
 }: Props) => {
+  const inputRef = useRef<HTMLInputElement>(null);
+  const [visibilityOn, setVisibilityOn] = useState(false);
+  
+  const handleVisibility = () => {
+    setVisibilityOn(state => !state);
+  }
+  
   return (
     <div className={className}>
       <div className={styles.labelContainer}>
@@ -50,9 +59,10 @@ const Input = ({
       <div className={styles.inputContainer}>
         {svg && svg}
         <input
-          type={type}
+          type={id == "password" && visibilityOn ? "text" : type}
           name={id}
           id={id}
+          ref={inputRef}
           placeholder={placeholder}
           defaultValue={defaultValue ? defaultValue : ""}
           disabled={disabled}
@@ -61,6 +71,7 @@ const Input = ({
           onChange={onChange}
           onBlurCapture={onBlurCapture}
         />
+        {id == "password" && (<Visibility className={`${visibilityOn ? styles.darken : ""} ${styles.visibleIcon}` } onClick={handleVisibility} />)}
       </div>
     </div>
   );

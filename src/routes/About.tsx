@@ -17,8 +17,8 @@ const About = () => {
       <Hero
         image={
           width < 1024
-            ? "https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Fshop-hero-image.jpg?alt=media&token=0bf5abd7-664a-4eff-bcb4-4b524506c128"
-            : "https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Fabout-hero-image.jpg?alt=media&token=211abbe8-a597-4a89-ae6a-065b1cd8579d"
+            ? "https://res.cloudinary.com/dplbkid9/image/upload/v1785702442/5e5fcbf402ca7c7cecfe7bf6_Untitled-3_20_3_oxo8rk.jpg"
+            : "https://res.cloudinary.com/dplbkid9/image/upload/v1785702378/5e602586e7017bb2b3d99ab3_Untitled-14_orl5rt.jpg"
         }
         title="About Us"
       >
@@ -39,19 +39,19 @@ const About = () => {
         >
           <div className={styles.cardContainer}>
             <OurCrewCard
-              image="https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Fprofile-image-1.jpeg?alt=media&token=ef18bf01-b57d-44cc-b659-2f7f4ffe2251"
+              image="https://res.cloudinary.com/dplbkid9/image/upload/v1785702369/5bb9674282df3566bcb449cc_matheus-ferrero-216385-1-p-1600_doetya.jpg"
               title="Maria Monroy"
               subTitle="SENIOR DESIGNER"
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. enim in eros elementum"
             />
             <OurCrewCard
-              image="https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Fprofile-image-2.jpg?alt=media&token=a66fee47-c6c0-468b-b9ad-7983b1fa05a2"
+              image="https://res.cloudinary.com/dplbkid9/image/upload/v1785702389/5bb51966b7369f90e2c3cc37_lucas-sankey-378674_onfskm.jpg"
               title="Dominic Basket"
               subTitle="SENIOR DESIGNER"
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. enim in eros elementum"
             />
             <OurCrewCard
-              image="https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Fprofile-image-3.jpg?alt=media&token=99b41baf-9da1-4d04-acc1-f6ba56c1e4e2"
+              image="https://res.cloudinary.com/dplbkid9/image/upload/v1785702401/5bb51966b7369f1eb3c3cc35_erik-lucatero-310633_e60wsd.jpg"
               title="Edward Fisher"
               subTitle="SENIOR DESIGNER"
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. enim in eros elementum"
@@ -65,12 +65,12 @@ const About = () => {
             className={`${styles.image} ${inView ? styles.show : ""}`}
             style={{
               backgroundImage:
-                "url(https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Ffeatured-image-1.png?alt=media&token=240780b7-dfa4-4107-a6de-01cf910c4d2a)",
+                "url(https://res.cloudinary.com/dplbkid9/image/upload/v1785701242/5bb9668024337c19082edcaf_orientovase_wzupn7.png)",
             }}
             ref={ref}
           ></div>
           <Showcase
-            image="https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Ffeatured-image-2.png?alt=media&token=8bc259f2-c626-4611-a5c3-694280930415"
+            image="https://res.cloudinary.com/dplbkid9/image/upload/v1785701255/5bb381e8f20c2e1db6f8800c_blouse_o9vp5e.png"
             title={
               <div>
                 Created With Love

@@ -6,9 +6,8 @@ import {
   Close,
   Logout,
   Menu,
-  Person,
-  PersonOutline,
-  Settings,
+  PersonOutlineOutlined,
+  SettingsOutlined,
 } from "@mui/icons-material";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import { selectProduct, removeDefaultCartItem } from "../../features/cartSlice";
@@ -109,7 +108,7 @@ const Navbar = () => {
             ref={cartIconRef}
           >
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Fshopping-cart.svg?alt=media&token=6770ca47-f068-492a-880c-273ca719571a"
+              src="https://res.cloudinary.com/dplbkid9/image/upload/v1785707080/5bbfa9a53c082260a48d15ef_shoping_20cart_evwjnv.svg"
               alt=""
             />{" "}
             Cart{" "}
@@ -134,7 +133,7 @@ const Navbar = () => {
                 {user.profileImg ? (
                   <img src={user.profileImg} alt="" className={styles.image} />
                 ) : (
-                  <PersonOutline className={styles.icon} />
+                  <PersonOutlineOutlined className={styles.icon} />
                 )}
               </div>
               <span className={styles.name}>{user.username || "login"}</span>
@@ -151,7 +150,7 @@ const Navbar = () => {
                   className={styles.link}
                   onClick={handleToggleProfile}
                 >
-                  <Person />
+                  <PersonOutlineOutlined />
                   <span>Profile</span>
                 </NavbarLink>
               )}
@@ -160,7 +159,7 @@ const Navbar = () => {
                 className={styles.link}
                 onClick={handleToggleProfile}
               >
-                <Settings />
+                <SettingsOutlined />
                 <span>Settings</span>
               </NavbarLink>
               <NavbarLink

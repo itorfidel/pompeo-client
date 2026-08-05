@@ -46,4 +46,14 @@
       }
     }
   }
+
+  .visibleIcon {
+    left: unset;
+    right: 0.35em;
+    cursor: pointer;
+
+    &.darken {
+      color: u.$light-500;
+    }
+  }
 }

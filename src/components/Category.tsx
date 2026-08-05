@@ -24,7 +24,7 @@ const Category = () => {
         >
           <div className={`${styles.disc} ${styles.yellow}`}>
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Fvases.png?alt=media&token=39bfb4ee-1642-43e7-b742-441944d01766"
+              src="https://res.cloudinary.com/dplbkid9/image/upload/v1785701136/5bb7874064724534dc9870d0_icons8-pottery-64_v6h7at.png"
               alt=""
             />
             <h3>Vases</h3>
@@ -38,7 +38,7 @@ const Category = () => {
         >
           <div className={`${styles.disc} ${styles.red}`}>
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Fmugs.png?alt=media&token=06962048-368c-42e1-8fb5-a90404561c99"
+              src="https://res.cloudinary.com/dplbkid9/image/upload/v1785701183/5bb7876aedf07b21c27e7b66_icons8-salad-bowl-64_ztwpou.png"
               alt=""
             />
             <h3>Mugs</h3>
@@ -52,7 +52,7 @@ const Category = () => {
         >
           <div className={`${styles.disc} ${styles.maroon}`}>
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Fplates.png?alt=media&token=7480fdf1-0842-4e8a-856d-227a857ba70a"
+              src="https://res.cloudinary.com/dplbkid9/image/upload/v1785701229/5bb78d5e9e1f337308de45cf_ICON-22_dx249p.png"
               alt=""
             />
             <h3>Plates</h3>

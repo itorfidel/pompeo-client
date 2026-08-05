@@ -54,6 +54,9 @@ const Register = () => {
     if (Object.values(body).some((value) => value === "")) {
       triggerError(isClientError, true, setIsClientError);
     } else {
+      // const {_id, ...initialUserNoId} = initialUser;
+      // const newUser = { ...initialUserNoId, ...body };
+
       const newUser = { ...initialUser, ...body };
 
       await register(newUser)

@@ -46,7 +46,7 @@ const Product = () => {
   return (
     <main className={styles.product}>
       <Hero
-        image="https://firebasestorage.googleapis.com/v0/b/pompeo-47e63.appspot.com/o/Assets%2Fshop-hero-image.jpg?alt=media&token=0bf5abd7-664a-4eff-bcb4-4b524506c128"
+        image="https://res.cloudinary.com/dplbkid9/image/upload/v1785702442/5e5fcbf402ca7c7cecfe7bf6_Untitled-3_20_3_oxo8rk.jpg"
         title="Product Page"
       >
         <p>
